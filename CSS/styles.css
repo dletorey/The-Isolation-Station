@@ -2,18 +2,32 @@ body {
     text-align: center;
     font-family: helvetica;
 }
-h1 strong, h2 strong {
+
+h1 strong,
+h2 strong {
     color: #f6a1b8;
     font-weight: 900;
 }
-h1, h2 {
+
+h1,
+h2 {
     color: #4f5e94;
     font-weight: 300;
 }
+
 h1 {
     font-size: 3em;
 }
+
 h2 {
     font-size: 2em;
 }
 
+button {
+    padding: 12px 24px;
+    border: 1px solid #f6a1b8;
+    border-radius: 8px;
+    background: #4f5e94;
+    font-size: 2em;
+    color: white;
+}

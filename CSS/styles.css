@@ -50,8 +50,9 @@ a.button {
     color: white;
 }
 
-a.button:disabled {
+a.button.disabled {
     opacity: 20%;
+    cursor: not-allowed;
 }
 
 a.button:hover {

@@ -40,3 +40,21 @@ button:hover {
     background: #f6a1b8;
     color: #4f5e94;
 }
+
+a .button {
+    padding: 12px 24px;
+    border: 1px solid #f6a1b8;
+    border-radius: 8px;
+    background: #4f5e94;
+    font-size: 2em;
+    color: white;
+}
+
+a .button:disabled {
+    opacity: 20%;
+}
+
+a .button:hover {
+    background: #f6a1b8;
+    color: #4f5e94;
+}

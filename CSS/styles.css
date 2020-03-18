@@ -35,3 +35,8 @@ button {
 button:disabled {
     opacity: 20%;
 }
+
+button:hover {
+    background: #f6a1b8;
+    color: #4f5e94;
+}

@@ -8,6 +8,11 @@ ol {
     text-align: left;
 }
 
+.left,
+.right {
+    display: inline-block;
+}
+
 h1 strong,
 h2 strong {
     color: #f6a1b8;

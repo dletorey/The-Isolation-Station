@@ -41,7 +41,7 @@ button:hover {
     color: #4f5e94;
 }
 
-a .button {
+a.button {
     padding: 12px 24px;
     border: 1px solid #f6a1b8;
     border-radius: 8px;
@@ -50,11 +50,11 @@ a .button {
     color: white;
 }
 
-a .button:disabled {
+a.button:disabled {
     opacity: 20%;
 }
 
-a .button:hover {
+a.button:hover {
     background: #f6a1b8;
     color: #4f5e94;
 }

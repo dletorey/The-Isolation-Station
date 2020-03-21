@@ -33,6 +33,15 @@ h2 {
     font-size: 2em;
 }
 
+a a:visited {
+    color: #4f5e94;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #f6a1b8;
+}
+
 button {
     padding: 12px 24px;
     border: 1px solid #f6a1b8;

@@ -69,3 +69,23 @@ a.button:hover {
     background: #f6a1b8;
     color: #4f5e94;
 }
+
+.video {
+    width: 130px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.video .hovered-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.video:hover .hovered-img {
+    display: inline;
+}

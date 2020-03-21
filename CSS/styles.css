@@ -33,7 +33,8 @@ h2 {
     font-size: 2em;
 }
 
-a a:visited {
+a,
+a:visited {
     color: #4f5e94;
     font-weight: 900;
 }

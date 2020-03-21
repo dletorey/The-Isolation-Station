@@ -70,12 +70,14 @@ a.button:hover {
     color: #4f5e94;
 }
 
+img {
+    max-width: 100%;
+}
+
 .video {
-    width: 130px;
     height: auto;
     position: relative;
     display: inline-block;
-    max-width: 100%;
 }
 
 .video .hovered-img {

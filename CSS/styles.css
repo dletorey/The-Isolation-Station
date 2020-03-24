@@ -101,3 +101,8 @@ img {
 .video:hover .hovered-img {
     display: inline;
 }
+
+small {
+    font-size: 0.75rem;
+    line-height: 4rem;
+}

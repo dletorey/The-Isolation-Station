@@ -106,3 +106,12 @@ small {
     font-size: 0.75rem;
     line-height: 4rem;
 }
+
+.pink {
+    font-weight: 900;
+    color: #f6a1b8;
+}
+
+.blue {
+    color: #4f5e94;
+}

@@ -39,6 +39,12 @@ a:visited {
     font-weight: 900;
 }
 
+main {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:hover {
     color: #f6a1b8;
 }

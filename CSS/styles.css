@@ -154,7 +154,7 @@ small {
 
 .cards_item a {
     text-decoration: none;
-    background-color: #005eb8;
+    background-color: #4f5e94;
 }
 
 .cards_item a:hover {
@@ -184,11 +184,11 @@ small {
 
 .card_content {
     padding: 1rem;
-    background: #005eb8;
+    background: #4f5e94;
 }
 
 .card_title {
-    color: #FCFCFC;
+    color: #ffffff;
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 1px;
@@ -197,7 +197,7 @@ small {
 }
 
 .card_text {
-    color: #FCFCFC;
+    color: #ffffff;
     font-size: 0.875rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;
@@ -205,7 +205,7 @@ small {
 }
 
 .card_content time {
-    color: #FCFCFC;
+    color: #ffffff;
     font-size: 0.7rem;
 }
 

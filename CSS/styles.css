@@ -121,3 +121,94 @@ small {
 .blue {
     color: #4f5e94;
 }
+
+/*@@ list of disc interviews @@*/
+
+.discs {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.card img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+.cards_item a {
+    text-decoration: none;
+    background-color: #005eb8;
+}
+
+.cards_item a:hover {
+    opacity: 75%;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+    background: #005eb8;
+}
+
+.card_title {
+    color: #FCFCFC;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card_text {
+    color: #FCFCFC;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.card_content time {
+    color: #FCFCFC;
+    font-size: 0.7rem;
+}
+
+.pagination {
+    text-align: center;
+}
